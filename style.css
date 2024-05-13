@@ -1,0 +1,66 @@
+.heading {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    font-size: 60px;
+    background: -webkit-linear-gradient( rgb(34, 32, 128), rgb(185, 94, 33));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.plansList {
+    display: flex;
+    justify-content: center;
+}
+.plans {
+    width: 40%;
+    padding: 15px;
+    border-radius: 5px;
+}
+.btn {
+    font-weight: bold;
+    background-color: green;
+    color: white;
+    width: 70px;
+    border-radius: 5px;
+}
+body {
+    background-image: url(https://images.unsplash.com/photo-1472289065668-ce650ac443d2?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-color: blueviolet;
+}
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.addedList {
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    background-color: aquamarine;
+    width: 45%;
+    border-bottom: 1px solid blue;
+    list-style-type: none;
+    font-size: 20px;
+}
+.toDoAdded {
+    transition: 2s;
+    background-color: blueviolet;
+    color: white;
+    text-decoration: line-through;
+    font-weight: bold;
+}
+@media all and (max-width: 800px) {
+    h1 {
+        font-size: 40px;
+    }
+}
+@media all and (max-width: 500px) {
+    h1 {
+        font-size: 20px;
+    }
+}
